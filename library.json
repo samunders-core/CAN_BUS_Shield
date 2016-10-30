@@ -9,5 +9,5 @@
   },
   "version": "1.20",
   "frameworks": "arduino",
-  "platforms": "*"
+  "platforms": "atmelavr"
 }

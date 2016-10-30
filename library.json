@@ -9,5 +9,8 @@
   },
   "version": "1.20",
   "frameworks": "arduino",
-  "platforms": "atmelavr"
+  "platforms": "atmelavr",
+  "build": {
+    "srcFilter": "-<*> +<mcp_can.h> +<mcp_can_dfs.h> +<mcp_can.cpp>"
+  }
 }
